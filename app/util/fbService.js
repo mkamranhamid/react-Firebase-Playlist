@@ -1,12 +1,13 @@
 // Initialize Firebase
-        const config = {
-            apiKey: "AIzaSyCDemLJQsoV-csJ7jtdzTq_nV2ESwvhG2M",
-            authDomain: "kamran-playlist.firebaseapp.com",
-            databaseURL: "https://kamran-playlist.firebaseio.com",
-            storageBucket: "kamran-playlist.appspot.com",
-        };
-        const fbService = firebase.initializeApp(config);
-        const fbDatabase = firebase.database();
-        const fbAuth = firebase.auth();
-           
-         export { fbDatabase, fbAuth }
+const config = {
+    apiKey: "AIzaSyCjcMvHQcrWl7SD8sKu-9MM4XXEdbFymRg",
+    authDomain: "playlistapp-5ab87.firebaseapp.com",
+    databaseURL: "https://playlistapp-5ab87.firebaseio.com",
+    storageBucket: "playlistapp-5ab87.appspot.com",
+};
+const fbService = firebase.initializeApp(config);
+const fbDatabase = firebase.database();
+const fbAuth = firebase.auth();
+const fbStorage = firebase.storage();
+
+export { fbDatabase, fbAuth, fbStorage }

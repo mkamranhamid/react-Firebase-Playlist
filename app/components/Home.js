@@ -9,7 +9,7 @@ export class Home extends Component {
         this.state = {
             uname: [],
             data: [{ id: 0, name: 'kaka' }, { id: 1, name: 'papa' }, { id: 2, name: 'chacha' }, { id: 3, name: 'lala' }, { id: 4, name: 'tata' }]
-        }
+        } 
         this.cols = [{ key: 'name', label: 'Name' }, { key: 'email', label: 'email' }];
         this.pageMessage = 'Home';
         console.log("kaka constructor")

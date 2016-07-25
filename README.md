@@ -19,6 +19,10 @@ Static files are served from the `public` folder, project JavaScript files are b
 ```
 npm run build
 ```
+**To make changes to public**
+```
+webpack
+```
 
 This will generate a minimized bundle.js file on the `public` folder.s
 
